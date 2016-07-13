@@ -1,0 +1,14 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Delay	src/cliente.c	/^static void Delay(unsigned int count){$/;"	f	file:
+INCLUDES_H_	inc/includes.h	10;"	d
+connection_handler	src/server.c	/^void *connection_handler(void *socket_desc)$/;"	f
+getIP	src/IP.c	/^char *getIP(){$/;"	f
+main	src/cliente.c	/^int main(char *argc, char *argv[]){$/;"	f
+main	src/server.c	/^int main(int argc , char *argv[])$/;"	f
+porta	src/cliente.c	4;"	d	file:
+tmb	src/cliente.c	3;"	d	file:
