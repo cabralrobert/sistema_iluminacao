@@ -1,4 +1,4 @@
-all: cliente servidor
+all: folder cliente servidor
 INC		= -I./inc
 CC_BBB  = arm-linux-gnueabihf-gcc
 ARQ		= obj/server.o \
@@ -16,6 +16,9 @@ servidor:
 	gcc $(INC) -c src/server.c -o obj/server.o
 	gcc $(INC) -c src/IP.c -o obj/IP.o
 	gcc $(ARQ) -o bin/server.x -lpthread
+
+folder:
+	mkdir -p obj bin
 
 clean:
 	rm -f obj/*.o bin/*.x
