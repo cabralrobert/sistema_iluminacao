@@ -1,6 +1,6 @@
 all: folder cliente servidor
 INC		= -I./inc
-CC_BBB  = arm-linux-gnueabihf-gcc
+CC_BBB  = gcc
 ARQ		= obj/server.o \
 		  obj/IP.o 
 
